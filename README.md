@@ -2,6 +2,8 @@
 
 Dashboard tương tác (tiếng Việt) mô tả kiến trúc lõi của [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) tại commit `fcc0ad4`, tạo bằng [Understand-Anything](https://github.com/Egonex-AI/Understand-Anything).
 
+**Đọc trước:** [Kiến trúc deepseek-harness](docs/kien-truc.md) · [Nhật ký phân tích](docs/nhat-ky-phan-tich.md)
+
 ## Xem
 
 - **Online:** https://mt3rquy.github.io/deepseek-harness-understand/ (cần bật GitHub Pages: Settings → Pages → Deploy from branch `main`, thư mục `/ (root)`).
@@ -16,6 +18,8 @@ Dashboard tương tác (tiếng Việt) mô tả kiến trúc lõi của [deepse
 | `meta.json`, `config.json` | Metadata phân tích và ngôn ngữ (`vi`) |
 | `ua/.understandignore` | Các quy tắc lọc phạm vi phân tích |
 | `ua/fingerprints.json`, `ua/intermediate/scan-result.json` | Trạng thái để `/understand` chạy incremental |
+| `docs/` | Giải thích kiến trúc và nhật ký quá trình phân tích |
+| `analysis-log/` | Các file trung gian (batch, layer, tour, review). Chỉ để tra cứu, **không** chép vào `.ua/` |
 
 ## Phạm vi và giới hạn
 

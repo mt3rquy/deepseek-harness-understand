@@ -1,0 +1,16 @@
+{
+  "fixedSectionOk": true,
+  "nodesRecovered": 0,
+  "edgesRestored": 0,
+  "crossBatchEdgesAdded": 0,
+  "typesRemapped": 0,
+  "complexityRemapped": 0,
+  "notes": [
+    "Khong co muc nao trong phan Could not fix; khong sua assembled-graph.json.",
+    "Kiem tra importMap: 787/787 cap import co canh imports tuong ung (khop 1-1 voi 787 canh imports). Khong them canh moi.",
+    "Khong co canh treo, id trung, id sai tien to, hay self-loop. Moi function/class co dung 1 canh contains tu file cha.",
+    "168 node mo coi (68 config, 58 document, 42 file) khong co canh nao. Phan lon la tai lieu/cau hinh khong duoc tham chieu; 42 file mo coi can kiem tra thu cong neu muon do phu cao hon, nhung khong tu suy dien canh.",
+    "Canh calls chi co 4 (du kien theo ghi chu). Canh related chi co 1. Khong bo sung vi khong co du lieu backing.",
+    "Tom tat function/class con chung chung (da biet truoc); khong tao lai."
+  ]
+}
